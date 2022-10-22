@@ -1,0 +1,94 @@
+
+
+.filter-btn button{
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 4px 33px;
+    border-radius: 9px;
+    background-color: orange;
+    border: 0.2px solid #80808073;
+}
+
+
+.f-center{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.filterList-box{
+    padding: 30px 30px;
+    margin: 20px 14px;
+    border-radius: 5px;
+    border: 1px solid #80808059;
+}
+
+.filterIcon-text{
+    margin: 7px 5px;
+    color: seagreen;
+}
+
+.mention-nameShow{
+    position: absolute;
+    bottom: 235px;
+    left: 60px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: flex;
+    background: white;
+    color: lightcoral;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.mention-profilePic img{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+
+.mentioned-profileView{
+    position: absolute;
+    bottom: 276px;
+    left: 105px;
+    background: #666262;
+    padding: 3px 9px;
+    border-radius: 6px;
+}
+
+.story-link-website-btn button{
+    margin: 25px 55px;
+    padding: 7px 30px;
+    border: none;
+    background-color: #00b2ffb8;
+    color: white;
+}
+
+
+.link-website{
+    position: absolute;
+    bottom: 500px;
+    left: 310px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: flex;
+    background: white;
+    color: #00adef;
+    border-radius: 4px;
+    padding: 3px 10px;
+}
+
+.link-website-view{
+    position: absolute;
+    bottom: 460px;
+    left: 325px;
+    background: #817a7a;
+    padding: 3px 9px;
+    border-radius: 6px;
+}
+
+.link-website-font-color{
+    color: white !important;
+}

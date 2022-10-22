@@ -1,0 +1,28 @@
+
+
+.iconcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shareicon{
+    margin: 6px;
+}
+
+@media screen and (max-width: 475px) and (min-width:200px) {
+
+   .socialmodal{
+        border-radius: 48px 48px 0 0 !important ;
+        width: 100% !important;
+        height: 30% !important;
+        position: fixed !important;
+       
+        bottom: -500px !important;
+
+    }
+    
+    
+    
+    
+    }
+

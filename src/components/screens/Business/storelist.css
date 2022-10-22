@@ -1,0 +1,21 @@
+
+.registerBtn button{
+    position: relative;
+    left: 260px;
+    top: 22px;
+    border: none;
+    background-color: #2d7bff;
+    color: white;
+    height: 28px;
+    width: 86px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.registerBtn svg {
+    position: relative;
+    left: 145px;
+    top: 20px;
+    color: #115bdb;
+
+}

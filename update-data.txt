@@ -1,0 +1,14 @@
+verson 1.2 +
+
+ 1. profile private and public option added 
+ 2. story close icon with function added
+ 3. story setting option added 
+ 4. story setting delete, report, share and mute added
+ 5. story view and like option added
+ 6. story view and like list added , where user can see user list of view and likes
+ 7. Business circle store registration page added
+ 8. Business circle store list page added
+ 9. business circle single store page added 
+ 10. business circle catagory option with filter option added
+ 11. business circle single page add product option added 
+ 12. Business circle product showing page list added 

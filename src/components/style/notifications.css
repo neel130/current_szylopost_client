@@ -1,0 +1,52 @@
+
+ 
+
+.notification-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
+
+
+}
+
+.followers-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 48%;
+    height:24vh ;
+    margin: 3px;
+    border-radius: 18px;
+        box-shadow: 0px 0px 20px 0px #8080806b;
+}
+
+
+.likes-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 48%;
+    height:24vh;
+    margin: 3px;
+    border-radius: 18px;
+        box-shadow: 0px 0px 20px 0px #8080806b;
+}
+
+
+.comments-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 48%;
+    height:24vh;
+   margin: 3px;
+   border-radius: 18px;
+       box-shadow: 0px 0px 20px 0px #8080806b;
+
+}
+
+ 

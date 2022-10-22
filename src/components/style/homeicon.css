@@ -1,0 +1,60 @@
+
+
+.homeiconModal{
+    background-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+     left: 270px !important;
+     top: 140px !important;
+     width: 26% !important;
+}
+
+
+
+
+.gaming img{
+    height: 60px !important;
+  width: 60px! important;
+  border-radius: 50% !important;
+  box-shadow: 0px 4px 11px 0px #dad8d8 !important;
+  position: fixed;
+  right: 15px;
+  bottom: 290px;
+  border: .3px solid grey;
+}
+
+
+.homeRecording img{
+    height: 60px !important;
+  width: 60px! important;
+  border-radius: 50% !important;
+  box-shadow: 0px 4px 11px 0px #dad8d8 !important;
+  position: fixed;
+  right: 15px;
+  bottom: 215px;
+  border: .3px solid grey;
+ 
+}
+
+.photoUploading img{
+    height: 60px !important;
+  width: 60px! important;
+  border-radius: 50% !important;
+  box-shadow: 0px 4px 11px 0px #dad8d8 !important;
+  position: fixed;
+  right: 15px;
+  bottom: 140px;
+  border: .3px solid grey;
+ 
+}
+
+.tweetWriting img{
+    height: 60px !important;
+  width: 60px! important;
+  border-radius: 50% !important;
+  box-shadow: 0px 4px 11px 0px #dad8d8 !important;
+  position: fixed;
+  right: 15px;
+  bottom: 65px;
+  border: .3px solid grey;
+ 
+}

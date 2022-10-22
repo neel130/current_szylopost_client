@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color: black !important;
+}
+
+.brand-logo{
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bold;
+  font-style: oblique;
+  color: rgb(16, 160, 16) !important;
+}
+
+
+/* story design */
+
+body{
+  background:white;
+  /* margin-top:20px; */
+}
+.widget {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 6px 0 rgb(85 85 85 / 8%), 0 1px 20px 0 rgb(0 0 0 / 7%), 0px 1px 11px 0px rgb(0 0 0 / 7%);
+  -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 6px 0 rgb(85 85 85 / 8%), 0 1px 20px 0 rgb(0 0 0 / 7%), 0px 1px 11px 0px rgb(0 0 0 / 7%);
+}
+.widget.box .widget-header {
+  background: #fff;
+  padding: 0px 8px 0px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.widget .widget-header {
+  border-bottom: 0px solid #f1f2f3;
+}
+.widget.box .widget-header {
+  background: #fff;
+  padding: 0px 8px 0px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.widget .widget-header {
+  border-bottom: 0px solid #f1f2f3;
+}
+.widget .widget-header:after {
+  clear: both;
+}
+.widget .widget-header:before, .widget .widget-header:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.widget-content-area {
+  padding: 20px;
+  position: relative;
+  background-color: #fff;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.story-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.story-container-1 .single-create-story {
+  height: 175px;
+  width: 110px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #e4e4e4;
+  text-align: center;
+}
+img.single-create-story-bg {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+.create-story-author img {
+  height: 40px;
+  width: 40px;
+  margin-top: -20px;
+  padding: 4px;
+  background: #e4e4e4;
+  border-radius: 50%;
+}
+.story-container-1 .single-story {
+  height: 175px;
+  width: 110px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.story-container-1 .single-story::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(rgb(255 0 0 / 0%), black);
+}
+img.single-story-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story-container-1 .story-author {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  right: 0px;
+  text-align: center;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.story-author img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 4px;
+}
+
+.story-container-1 .story-author p {
+  color: #fff;
+  width: 100%;
+  margin: 5px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.create-story-author p {
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+/* 
+nav{
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  height: 65px;
+  width: 100vw;
+  background-color: white;
+} */
+
+.brand-logo,h2{
+  font-family: 'Grand Hotel', cursive;
+}
+
+.mycard{
+  margin-top: 30px;
+}
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+   margin-bottom: 60px;
+}
+
+.item-circle{
+  width: 99%;
+  height: 160px;
+  margin: 6px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: -2px 5px 13px 2px grey;
+}
+
+ .item{
+  width: 100%;
+  margin: 2px;
+  height: 160px;
+ 
+}
+
+.singleImagePost{
+  width: 32% ;
+  margin: 2px ;
+  height: 160px ;
+}
+
+.home-card{
+  max-width: 500px;
+  height: max-content;
+   margin: auto;
+  border: none !important;
+  box-shadow: none;
+  
+}
+.collection-item{
+  width: 100%;
+}
+
+
+#toast-container{
+  top:30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+
+.card .card-image img 
+ {
+  display: block;
+ border-radius: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.material-icons::before{
+  cursor: pointer;
+}
+
+.material-icons:hover{
+  cursor: pointer;
+}
+
+.notifi:hover{
+background-color: greenyellow !important;
+}
+
+
+.comment-setting{
+  font-size: 15px
+}
+
+.propic{
+  width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+
+.propic-square{
+  width: 160px;
+  height: 160px;
+  border: 2px solid white;
+  box-shadow: -2px 3px 20px 5px #bfbfbff2;
+  border-radius: 7px;
+}
+
+
+
+.editpic{
+  width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+
+.footerin{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid rgb(204, 204, 204);
+  background-color: rgb(255, 255, 255);
+}
+ 
+.footerin li{
+  margin: 7px;
+   padding: 9px;
+
+}
+
+.profilesec{
+  margin-top: 30px;
+  margin-bottom: 18px;
+  border-bottom:1px solid gray ;
+  
+}
+
+
+
+.loading{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+ .ibox{
+  width: 35px;
+  height: 25px;
+  background: #dee8f17e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+ }
+
+ .subButton input{
+  border: none;
+    height: 30px;
+    width: 90px;
+    color: white;
+    border-radius: 4px;
+    background: green;
+ }
+
+.addBtn button{
+  margin-top: 5px;
+    width: 114px;
+    height: 31px;
+    border: 1px solid #00b525;
+    border-radius: 6px;
+    background-color: #f3fbf1;
+    font-weight: bolder;
+    color: #00b525;
+}
+
+.businessProduct img{
+  border-radius: 7px;
+ 
+  height: 88px;
+    width: 115px;
+}
+
+.businessCircle img{
+  border-radius: 33px;
+ margin: 0 5px 0 10px;
+  height: 65px;
+  width: 65px;
+}
+
+.profilepic2 img{
+  border-radius: 23px;
+ margin: 0 5px 0 10px;
+  height: 45px;
+  width: 45px;
+}
+
+.profilepic img{
+  border-radius: 23px;
+ 
+  height: 26px;
+  width: 26px;
+}
+
+
+
+.profilepic-comment-reply img{
+  border-radius: 23px;
+ 
+  height: 35px;
+  width: 35px;
+}
+
+
+
+.textScroller{
+  height: 70px;
+  overflow-y: scroll;
+}
+
+
+.neel{
+  background-color: red ;
+}
+
+.neel2{
+  position: relative;
+  top: 100px;
+  right: 100px;
+  border-radius: 20px;
+}
+
+.inshead{
+  position: relative;
+  top: 3px;
+}
+
+
+/* User profile toggle */
+.profileOn{
+
+}
+.profileOff{
+  display: none;
+}
+
+.storyMain{
+  display: flex;
+width: 100%;
+height: 95px;
+  align-items: center;
+  
+}
+
+.storyProfile{
+  margin-left: 25px;
+}
+
+.story{
+  height: 84px;
+}
+
+.story-header{
+margin-bottom: 30px;
+
+}
+
+
+
+.story h1{
+  margin: 0;
+  position: relative;
+ bottom: 6px;
+ left:5px;
+  font-size: 200px;
+  color: red;
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+ 
+  
+}
+
+
+
+
+.allStory{
+  margin-top: 55px;
+  margin-left: 15px;
+  margin-right: 15px;
+ 
+}
+
+.allStoryoff{
+  display: none;
+}
+
+.myStory{
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.myStory img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+
+}
+
+.storybtn{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 30%;
+  background-color: rgba(156, 156, 156, 0.959) !important;
+}
+
+
+.storyclick:active{
+  background-color: rgba(16, 116, 197, 0.158);
+}
+
+.creatStorymain{
+
+}
+
+.creatStory{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.storyBtnSubmit{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.storyimage{
+  background-color: black;
+  width: 100vw;
+  height:calc(100vh - 90px);
+  display: flex;
+ align-items: center;
+ color: white;
+ cursor: pointer;
+
+
+ position: relative;
+
+}
+
+
+
+.storyimage .line {
+  height: 2px;
+  background: white;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  -webkit-animation: dude 4s 1 forwards;
+  animation: dude 22s 1 forwards;
+}
+@-webkit-keyframes dude {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes dude {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+.storyimage img {
+  width: 100vw;
+  
+ 
+  
+}
+
+
+.storyimageoff{
+  display: none;
+}
+
+.modal{
+  border-radius: 20px !important ;
+}
+
+.modal-overlay{
+  opacity: 1 ;
+}
+
+
+.homeIcon img{
+   
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 11px 0px #948181;
+  position: fixed;
+  right: 15px;
+  bottom: 65px;
+}
+
+
+
+.displayoff{
+  display: none;
+}
+
+.editbio button{
+  margin:14px 14px 15px 20px;
+  border-radius: 13px;
+  border: none;
+  background: #2d5bd6;
+  color: white;
+  padding: 7px 16px;
+  box-shadow: -4px 4px 5px #a4a4dbbf; 
+}
+
+.editprofile{
+  height: 41vh;
+}
+
+.updateprofile{
+  display: flex;
+  justify-content: center;
+}
+
+.updateprofile button{
+  
+  border-radius: 11px;
+  border: none;
+  background: #18ac04;
+  color: white;
+  padding: 9px 16px;
+  box-shadow: -4px 4px 5px #a7dba4;
+  margin-bottom: 15px;
+  
+}
+
+.bio{
+  margin: 5px 15px;
+}
+
+select{
+  z-index: 5;
+  width: 6%;
+  position: fixed;
+  float: right;
+  color: #d0e9ff;
+  border-radius: 0px 12px 12px 0px;
+  background: black;
+}
+
+
+/* .location{
+  width: 70% !important;
+} */
+
+.likeContainer{
+ padding: 5px;
+  border: 1px solid rgba(112, 110, 110, 0.342);
+  border-radius: 6px;
+}
+
+.CreatePostsetting button{
+  color: white;
+  float: right;
+  border: none;
+  border-radius: 6px;
+  background-color: #a49898;
+  padding: 4px 12px;
+}
+
+.stylecmnt{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+
+.lockIcon{
+  height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgb(13, 214, 13);
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 475px) and (min-width:200px) {
+ 
+.right{
+height: 30px;
+}
+.propic{
+  
+  width: 90px;
+    height: 90px;
+    position: relative;
+    top: 33px;
+}
+
+
+.propic-square{
+  width: 90px;
+  height: 90px;
+  position: relative;
+  top: 40px;
+  /* left: 4px; */
+  border: 2px solid white;
+  box-shadow: 0px 0px 6px 4px #bfbfbf81;
+  border-radius: 7px;
+  
+  
+}
+
+.editpic{
+  
+  width: 90px;
+    height: 90px;
+    position: relative;
+    top: 60px;
+}
+
+.editprofile{
+  margin: 10px;
+  padding: 27px 9px 9px 9px;
+}
+
+
+.home{
+  padding-top: 18px;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  height: 45px;
+  width: 100vw;
+  background-color: white;
+}
+nav ul li{
+  position: relative;
+  bottom: 7px;
+}
+
+nav .brand-logo{
+  position: absolute;
+    bottom: -3px;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0;
+}
+.profilesec{
+    margin-top: 46.1px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    background: white;
+    z-index: 9;
+    top: 45.5px;
+}
+
+.prodetails{
+  width: 202px;
+   position: relative;
+  right: -10px;
+}
+
+.user-prodetails{
+  width: 202px;
+   position: relative;
+  right: 22px;
+}
+
+.prodetails h5{
+  display: block;
+  margin: 2.52rem 0 0 0;
+}
+
+.user-prodetails h5{
+  display: block;
+  margin: 2.52rem 0 0 0;
+}
+
+
+.item{
+  width: 100% ;
+  margin: 2px;
+  height: 109px;
+ 
+}
+
+
+
+.modal{
+ 
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+ 
+  max-height: 84% !important;
+  height: 64% !important;
+  width: 80% !important;
+ 
+ 
+}
+
+.updateprofile button{
+  margin-top: 30px;
+}
+
+.item-circle{
+  border: 2px solid #fefffe;
+  width: 94%;
+  margin: 6px;
+  box-shadow: -1px 1px 7px 3px #bcbebc9c;
+  height: 109px;
+}
+
+.singleImagePost{
+  width: 32% ;
+  
+  height: 109px ;
+}
+
+
+
+
+
+ }
+

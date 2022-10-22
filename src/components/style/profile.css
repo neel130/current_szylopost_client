@@ -1,0 +1,11 @@
+
+
+select{
+    outline: none !important;
+    width: 21% !important;
+    position: fixed !important;
+    float: right !important;
+    color: #d0e9ff !important;
+    border-radius: 0px 12px 12px 0px !important;
+    background: black !important;
+  }

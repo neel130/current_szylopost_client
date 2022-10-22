@@ -1,0 +1,39 @@
+
+
+.profileimg {
+    width: 90px;
+    height: 90px;
+  border-radius: 50%;
+
+}
+
+.not-box{
+   border: none;
+    background-color: transparent !important;
+}
+
+.viewProfile{
+  padding-left: 4px;
+  margin-left: 31px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(240, 146, 5);
+  color: white;
+  font-size: 11px;
+  height: 26px;
+}
+
+@media screen and (max-width: 455px) and (min-width: 200px){
+
+.profileimg {
+    width: 65px;
+    height: 65px;
+  border-radius: 50%;
+  margin: 7px;
+  margin-left: 20px;
+
+}
+
+}
+

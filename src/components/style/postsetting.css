@@ -1,0 +1,18 @@
+
+
+
+@media screen and (max-width: 475px) and (min-width:200px) {
+
+    .postmodal{
+        border-radius: 8px !important ;
+        width: 50% !important;
+        height: 41% !important;
+        position: fixed !important;
+        left: 187px !important;
+        top: 150px !important;
+    }
+    
+    
+    
+    
+    }

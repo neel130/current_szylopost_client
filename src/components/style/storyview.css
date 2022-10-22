@@ -1,0 +1,46 @@
+
+.headerData{
+    display: flex;
+  
+}
+
+.viewheader{
+   display: flex;
+   justify-content: center;  
+    width: 50%;
+    margin: 2px;
+}
+
+.likeheader{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 2px;
+}
+
+.bottom-border{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+    width: 50%;
+    margin: 2px;
+}
+
+
+
+@media screen and (max-width: 475px) and (min-width:200px) {
+
+    .storymodal{
+         border-radius: 0 !important ;
+         width: 100% !important;
+         height: 70% !important;
+         position: fixed !important;
+        
+         bottom: -300px !important;
+ 
+     }
+     
+     
+     
+     
+     }

@@ -1,0 +1,33 @@
+
+
+.card{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accountprivacy{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.headertext{
+    font-weight: 500;
+    color: grey;
+    font-size: 25px;
+}
+
+.inputBox{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.acsettingbtn button{
+    height: 30px;
+    width: 151px;
+    background-color: #1fadcd;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}

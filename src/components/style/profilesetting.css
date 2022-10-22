@@ -1,0 +1,21 @@
+
+
+
+@media screen and (max-width: 475px) and (min-width:200px) {
+
+.profilemodal{
+    border-radius: 8px !important ;
+    width: 50% !important;
+    height: 65% !important;
+    position: fixed !important;
+    right: 185px !important;
+    
+}
+
+
+
+
+
+}
+
+

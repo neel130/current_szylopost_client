@@ -1,0 +1,37 @@
+
+
+.proimgmodal{
+    width: 100vw !important;
+    max-height: 100% !important;
+    border-radius: 0 !important;
+ margin: 0 !important;
+ top: 0 !important;
+}
+
+
+.profileimage img{
+    width: 100vw;
+}
+
+.profileContainer svg{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.profileContainer{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+}
+
+@media screen and (max-width: 475px) and (min-width:200px) {
+    .proimgmodal{
+        max-height: 100vh !important;
+        height: 100vh !important;
+        top: 0 !important;
+    }
+
+}

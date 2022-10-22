@@ -1,0 +1,27 @@
+
+.body-writing button{
+    float: right;
+    margin-top: 0px;
+    background-color: rgb(8, 207, 8);
+    height: 33px;
+}
+
+
+
+@media screen and (max-width: 475px) and (min-width:200px) {
+
+
+    .postingiconmodal{ 
+           border-radius: 8px !important ;
+           width: 80vw !important;
+           height: 30vh !important;
+           position: fixed !important;
+           
+           top: 220px !important;
+          
+       }
+       
+       
+       
+       
+       }
